@@ -1,3 +1,3 @@
 # LEARN_REACT
 
-React Documentation :-> <https://react.dev/>
+React Documentation -> <https://react.dev/>
