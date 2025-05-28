@@ -1,11 +1,14 @@
-
+import Ash from "./ash";
 
 function App() {
-  
-
+  const username = "Ashwani";
   return (
-    <h1>Hello from Vite</h1>
-  )
+    <>
+      <Ash />
+      <h1>Hii From vite {username} </h1>
+      <b>This is inside a fragment</b>
+    </>
+  );
 }
 
-export default App
+export default App;
