@@ -7,6 +7,18 @@ function App() {
   const addValue = () => {
     if (counter < 20) {
       setCounter(counter + 1);
+
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);
+      // It didn't updates values by 4 it update by 1
+
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1);
+      // this updates value by 4
     } else {
       alert("Value Can't be increse more than 20");
     }
