@@ -51,3 +51,7 @@ A change in the data used to render a React app. Usually the result of `setState
 `Reconciliation` is the algorithm behind what is popularly understood as the "Virtual DOM".
 
 Diifing of lists is performed using keys, Keys should be "stable, predicatable, and unique."
+
+## useCallback()
+
+It is a React Hook that lets you cache a function definition between re-renders.
